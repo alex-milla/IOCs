@@ -1,4 +1,4 @@
-# Operación Lunar Peek IOC List
+# lISTADO DE IOCs
 
 En este repositorio iré publicando listas con IOC's maliciosos para que se puedan utilizar como listas dinámicas en diferentes tipos de firewall.
 
