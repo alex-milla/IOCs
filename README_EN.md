@@ -1,15 +1,18 @@
 # IOC LIST
 
-In this repository, I will be publishing lists of malicious IOCs for use as dynamic lists in various types of firewalls.
+This repository publishes dynamic IOC (Indicators of Compromise) lists containing malicious IP addresses for use in firewalls to automatically detect and block IPs associated with malicious activities and vulnerabilities.
 
-I hope this list is helpful in improving the security of your networks. If you need anything more, don't hesitate to ask!
+## Repository Function
+- **Collection and Updates:** Gather and maintain up-to-date lists of malicious IP addresses.
+- **Security Integration:** Provide dynamic lists to facilitate easy integration into security devices.
+- **Defense Against Vulnerabilities:** Help mitigate attacks related to known vulnerabilities, such as **CVE-2025-0108**, which is associated with authentication bypass attempts on PAN‑OS devices.
 
-2/12/2024 - [View updated list](https://raw.githubusercontent.com/alex-milla/IOCs/main/OperationLunarPeek.txt)
+## Dynamic Lists Available to Date
+- **[CVE-2025-0108.txt](https://github.com/alex-milla/IOCs/blob/main/CVE-2025-0108.txt):** Contains the IP addresses detected that are associated with authentication bypass attempts on PAN‑OS devices.
+- **[OperationLunarPeek.txt](https://github.com/alex-milla/IOCs/blob/main/OperationLunarPeek.txt):** Based on the Palo Alto Networks Unit42 article, this list includes IOCs detected in the context of the Operation LunarPeek campaign.
 
-This list of indicators of compromise (IOC) is based on the article by Unit42 of Palo Alto Networks, available at [https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information/blob/main/2024-November-IOC-updates-OperationLunarPeek.txt](https://github.com/PaloAltoNetworks/Unit42-Threat-Intelligence-Article-Information/blob/main/2024-November-IOC-updates-OperationLunarPeek.txt).
+The information is derived from analyses conducted on reputable sources and ongoing research to ensure that the lists reflect current threats.
 
-=====================REFERENCES=====================
+We hope these lists help improve your network security! If you need further information or have any suggestions, please feel free to contact us.
 
-* [CVE-2024-0012](https://unit42.paloaltonetworks.com/cve-2024-0012-cve-2024-9474/)
-* [CVE-2024-9474](https://security.paloaltonetworks.com/CVE-2024-0012)
-* [CVE-2024-9474](https://security.paloaltonetworks.com/CVE-2024-9474)
+Last updated: [21/02/2025]
