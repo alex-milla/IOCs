@@ -16,4 +16,4 @@ La información se fundamenta en análisis de fuentes reconocidas y en investiga
 
 ¡Esperamos que estas listas te sean útiles para mejorar la seguridad de tus redes! Si necesitas más información o tienes sugerencias, no dudes en contactarnos.
 
-Última actualización: [21/02/2025]
+Última actualización: [01/05/2025]
