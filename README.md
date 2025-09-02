@@ -18,6 +18,8 @@ This repository publishes dynamic IOC (Indicators of Compromise) lists containin
 ---
 - [`FortinetSSLVPNBruteforcer.txt`](https://github.com/alex-milla/IOCs/blob/main/FortinetSSLVPNBruteforcer.txt): Observed a significant spike in brute-force traffic targeting Fortinet SSL VPNs.
 ---
+- [`PaloAlto-SalesforceDrift-UNC6395.txt`](https://github.com/alex-milla/IOCs/blob/main/PaloAlto-SalesforceDrift-UNC6395.txt): Indicators provided by Salesforce on the cyber attack on Palo Alto, ZScaler and Google via Salesforce Drift.
+---
 
 The information is derived from analyses conducted on reputable sources and ongoing research to ensure that the lists reflect current threats.
 
@@ -25,8 +27,5 @@ We hope these lists help improve your network security! If you need further info
 
 ---
 
-PaloAlto-SalesforceDrift-UNC6395.txt: Indicadores proporcionados por Salesforce sobre el ciberataque a Palo Alto, ZScaler y Google a través de Salesforce Drift.
-
----
 
 **Last updated:** 02/09/2025
