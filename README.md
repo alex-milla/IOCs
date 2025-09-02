@@ -25,4 +25,8 @@ We hope these lists help improve your network security! If you need further info
 
 ---
 
-**Last updated:** 26/08/2025
+PaloAlto-SalesforceDrift-UNC6395.txt: Indicadores proporcionados por Salesforce sobre el ciberataque a Palo Alto, ZScaler y Google a través de Salesforce Drift.
+
+---
+
+**Last updated:** 02/09/2025
