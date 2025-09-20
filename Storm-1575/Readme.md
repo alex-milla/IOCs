@@ -1,30 +1,25 @@
-# Storm-1575 — Malware Hashes & IOCs
+# Storm-1575 — Domains & IPs/Emails IOCs
 
-This repository contains Indicators of Compromise (IOCs), primarily file hashes, associated with the Storm-1575 threat actor and its malware campaigns. Maintained by Alex Milla, this resource supports threat intelligence, hunting, and defensive operations.
+This repository contains Indicators of Compromise (IOCs), focusing on domains and IPs/emails related to the Storm-1575 threat actor and campaigns. Curated by Alex Milla, this resource is intended for SOC teams, researchers, and defenders.
 
 ## Contents
 
-- `Storm-1575_hashes_MD5.txt` — MD5 hashes of malware files
-- `Storm-1575_hashes_SHA1.txt` — SHA-1 hashes (if available)
-- `Storm-1575_hashes_SHA256.txt` — SHA-256 hashes (if available)
+- `Storm-1575-domains.txt` — Malicious and suspicious domains linked to Storm-1575
+- `Storm-1575-ips_emails.txt` — Associated IP addresses and email addresses found in Storm-1575 operations
 
-Plain text format; one hash per line for seamless integration with security tools.
+All files are in plain text format, one entry per line, for easy integration with security platforms.
 
 ## Usage
 
-- Search for these hashes across endpoints, traffic, or forensic images
-- Enrich and correlate events in SIEMs, EDRs, or threat platforms
-- Accelerate response, blocking, and threat hunting activities
+- Block or monitor listed domains and IPs/emails in perimeter and internal defenses
+- Enrich threat intelligence feeds and hunting rules
+- Accelerate incident response and compromise assessments
 
 ## References
 
 - [Technical analysis and context — cyberintelligence.dev](https://www.cyberintelligence.dev/salty-2fa-undetected-phaas-from-storm-1575-targets-us-and-eu-industries/)
-- [This IOC Collection by Alex Milla](https://github.com/alex-milla/IOCs/tree/main/Storm-1575)
-
-## Contribution
-
-Contributions are welcome! Submit PRs for new indicators or improvements based on your findings.
+- [This IOC collection by Alex Milla](https://github.com/alex-milla/IOCs/tree/main/Storm-1575)
 
 ---
 
-_Disclaimer: These IOCs are provided for defensive, intelligence, and educational use only. Test and validate in your environment before applying operational changes._
+_Disclaimer: These IOCs are provided for defensive, intelligence, and educational use only. Always review and validate before deployment in production._
