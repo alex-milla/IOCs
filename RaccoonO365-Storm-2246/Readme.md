@@ -1,20 +1,22 @@
-# RaccoonO365-Storm-2246 — Malware Hashes (IOCs)
+# RaccoonO365-Storm-2246 — IOCs Collection
 
-This repository contains a collection of malware hashes related to the RaccoonO365 phishing-as-a-service platform and associated Storm-2246 campaigns. The indicators are curated for rapid integration into security controls and threat intelligence workflows by the community.
+This repository contains a collection of Indicators of Compromise (IOCs) related to the RaccoonO365 phishing-as-a-service platform and associated Storm-2246 campaigns. All indicators are curated for rapid integration and threat intelligence sharing by the security community.
 
 ## Contents
 
-- `RaccoonO365-Storm-2246_hashes_MD5.txt` — MD5 hashes of malicious files
-- `RaccoonO365-Storm-2246_hashes_SHA1.txt` — SHA-1 hashes (if available)
-- `RaccoonO365-Storm-2246_hashes_SHA256.txt` — SHA-256 hashes (if available)
+- `domains.txt` — Malicious and C2 domains used in campaigns
+- `SHA256.txt` — SHA-256 hashes of malicious samples
+- `Email_Detection_Fingerprints.txt` — Email subject/fingerprint patterns for detection
+- `cryptocurrency-addresses.txt` — Cryptocurrency wallets linked to the actors
 
-Each file consists of plain text hashes, one per line, ready for copy-paste, scripting, or direct SIEM/EDR ingestion.
+Each file contains plain text data, one indicator per line, for easy copy-paste or automation in security solutions.
 
 ## Usage
 
-- Search for the presence of these hashes on endpoints, servers, forensic images, or sandbox reports.
-- Block file transfers and quarantine threats in EDR/XDR and mail gateways.
-- Enrich threat intelligence systems and accelerate incident response.
+- Block or monitor the domains in firewalls, proxies, or DNS security tools
+- Use the SHA-256 hashes for malware hunting on endpoints, sandboxes, or threat feeds
+- Apply email fingerprints to improve phishing detection and mailbox rules
+- Track and flag listed cryptocurrency wallet transactions for further investigation
 
 ## References
 
@@ -24,4 +26,4 @@ Each file consists of plain text hashes, one per line, ready for copy-paste, scr
 
 ---
 
-_Disclaimer: These IOCs are provided strictly for defensive, educational, and research purposes. Always validate in your environment before operational deployment._
+_Disclaimer: These IOCs are provided strictly for defensive, educational, and research purposes. Always validate them in your environment before using in production._
