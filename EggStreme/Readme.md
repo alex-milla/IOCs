@@ -4,9 +4,9 @@ This repository provides a curated collection of IOCs related to the EggStreme m
 
 ## Contents
 
-- `domains.txt` — Malicious and C2 domains identified in EggStreme operations
-- `ips.txt` — IP addresses linked to EggStreme threat infrastructure
-- `hashes.txt` — MD5 file hashes of malware samples
+- `EggStreme_domains.txt` — Malicious and C2 domains identified in EggStreme operations
+- `EggStreme_IPs.txt` — IP addresses linked to EggStreme threat infrastructure
+- `EggStreme_hashes_MD5.txt` — MD5 file hashes of malware samples
 
 ## Usage
 
@@ -19,7 +19,7 @@ All files are in plain text format, each entry separated by line for direct copy
 
 ## Reference
 
-- [Full technical report and context](https://businessinsights.bitdefender.com/eggstreme-fileless-malware-cyberattack-apac)
+- [Full technical report and context](https://businessinsights.bitdefender.com/eggstreme-fileless-malware-cyberattack-apac?cid=soc|b|li|liveevent)
 - [This IOC collection by Alex Milla](https://github.com/alex-milla/IOCs/tree/main/EggStreme)
 
 ---
